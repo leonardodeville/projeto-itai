@@ -1,0 +1,36 @@
+:root {
+    --main-bg-color:#002f49;
+}
+
+.head {
+    background: var(--main-bg-color);
+    color: #fff
+}
+
+.destaque {
+    background: var(--main-bg-color);
+    color: #fff;
+    overflow: hidden;
+}
+
+.destaque img{
+    width: 100%;
+    max-width:100%;
+    height: auto;
+}
+
+.destaque a{
+    color: yellow;
+}
+
+.informacoes{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+/* CSS PARA DISPOSITIVOS GRANDES */
+@media screen and (min-width: 1080px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
